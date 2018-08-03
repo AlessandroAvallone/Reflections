@@ -2,8 +2,9 @@ What happens when you initialize a repository? Why do you need to do it?
 
 a .git file is created that contains the metdata storing the changes to the files in the repository. 
 
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+the staging area flags (holds) the files that will be committed. not all the files are updated every commit, so there's no reason to commits all the files everytime.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
